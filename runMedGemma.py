@@ -16,13 +16,13 @@ processor = AutoProcessor.from_pretrained(model_id, use_fast=True)
 # Image attribution: Stillwaterising, CC0, via Wikimedia Commons
 # image_url = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chest_Xray_PA_3-8-2010.png"
 # image = Image.open(requests.get(image_url, headers={"User-Agent": "example"}, stream=True).raw)
-image0 = Image.open("case1/0.png")
-image1 = Image.open("case1/1.png")
-image2 = Image.open("case1/2.png")
-image3 = Image.open("case1/3.png")
-image4 = Image.open("case1/4.png")
-image5 = Image.open("case1/5.png")
-image6 = Image.open("case1/6.png")
+image0 = Image.open("0.png")
+image1 = Image.open("1.png")
+image2 = Image.open("2.png")
+image3 = Image.open("3.png")
+image4 = Image.open("4.png")
+image5 = Image.open("5.png")
+image6 = Image.open("6.png")
 
 messages = [
     {
